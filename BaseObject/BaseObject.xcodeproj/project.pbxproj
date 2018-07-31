@@ -37,6 +37,8 @@
 		E53788192108656A00C0DE44 /* tabbar_icon_2_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E537880D2108656900C0DE44 /* tabbar_icon_2_sel@2x.png */; };
 		E53788202108715300C0DE44 /* FMHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E537881E2108715300C0DE44 /* FMHTTPClient.m */; };
 		E53788212108715300C0DE44 /* YQWebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E537881F2108715300C0DE44 /* YQWebRequest.m */; };
+		E53788272109728800C0DE44 /* MPCWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E53788262109728800C0DE44 /* MPCWebVC.m */; };
+		E53788292109737900C0DE44 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53788282109737900C0DE44 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +91,9 @@
 		E537881D2108715300C0DE44 /* YQWebRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQWebRequest.h; sourceTree = "<group>"; };
 		E537881E2108715300C0DE44 /* FMHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMHTTPClient.m; sourceTree = "<group>"; };
 		E537881F2108715300C0DE44 /* YQWebRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQWebRequest.m; sourceTree = "<group>"; };
+		E53788252109728800C0DE44 /* MPCWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCWebVC.h; sourceTree = "<group>"; };
+		E53788262109728800C0DE44 /* MPCWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCWebVC.m; sourceTree = "<group>"; };
+		E53788282109737900C0DE44 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53788292109737900C0DE44 /* WebKit.framework in Frameworks */,
 				8C091968639955A1A025D2A6 /* libPods-BaseObject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +112,7 @@
 		D775EAD641788AF1C5540E19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E53788282109737900C0DE44 /* WebKit.framework */,
 				1F3CC2998A7DDBF25B9EEE66 /* libPods-BaseObject.a */,
 			);
 			name = Frameworks;
@@ -229,6 +236,8 @@
 		E537881A2108715300C0DE44 /* WebRequest */ = {
 			isa = PBXGroup;
 			children = (
+				E53788252109728800C0DE44 /* MPCWebVC.h */,
+				E53788262109728800C0DE44 /* MPCWebVC.m */,
 				E537881B2108715300C0DE44 /* FMHTTPClient.h */,
 				E537881E2108715300C0DE44 /* FMHTTPClient.m */,
 				E537881C2108715300C0DE44 /* GPAPIHeader.h */,
@@ -379,6 +388,7 @@
 				E53787FD21085D4400C0DE44 /* MPCHomeTableItem.m in Sources */,
 				E53787FA21085CEC00C0DE44 /* MPCHomeTabbarVC.m in Sources */,
 				E53788212108715300C0DE44 /* YQWebRequest.m in Sources */,
+				E53788272109728800C0DE44 /* MPCWebVC.m in Sources */,
 				E53787D02108596000C0DE44 /* ViewController.m in Sources */,
 				E53787F121085A7D00C0DE44 /* UIView+Catrgory.m in Sources */,
 				E53787EB2108599D00C0DE44 /* ViewController3.m in Sources */,
